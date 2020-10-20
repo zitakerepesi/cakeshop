@@ -2,9 +2,58 @@ body {
   font-family: Helvetica;
 }
 
-#root {
-  height: 100vh;
+// #root {
+//   // height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.banner {
+  padding: 250px 0;
+  border: 0;
+  background-color: rgb(255,192,203);
+  // background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dbjujpwtg/image/upload/v1602773441/ellicia-24HcJhf0u6M-unsplash_bvznm9.jpg);
+  // background-size: cover;
+  // background-position: center;
+  text-align: center;
+  // height: 10%;
+  // margin-bottom: 30px;
+  height: 200px 0;
+}
+
+.banner h1 {
+  color: black;
+  letter-spacing: 3.6px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.bannerpicture {
+
+}
+
+.about {
+  text-color: black;
+  letter-spacing: 2.6px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.aboutdetails {
+  padding-left: 30px;
+}
+
+
+
+.footer {
+  background: rgb(255,160,122);
   display: flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: space-between;
+  // text-align: center;
+  height: 50px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
 }
+
